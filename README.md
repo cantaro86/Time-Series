@@ -15,12 +15,15 @@ List of files:
 
 In order to compile the C++ files, enter in the terminal the command:
 
->> make
+```bash
+make
+```
 
 and then run it by:
 
->> ./main
-
+```bash
+./main
+```
 
 The Makefile calls the gcc compiler. Do not use other compilers (i.e. clang++) because I wrote some lines of code not compatible. 
 I'm using the gcc version: 
@@ -29,9 +32,10 @@ gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609
 
 In order to run the python file, just enter:
 
->> chmod +x test.py
->> ./test.py
-
+```bash
+chmod +x test.py
+./test.py
+```
 
 COMMENTS:
 
